@@ -21,8 +21,9 @@ class TaskRepository {
     async find(id) {
         const all =  await this._currentFileContent();
         if(!id) return all
-
-        return all.find(item => item.id === id);
+        console.log(`passou aki`, id)
+        const response = all.find(item => item.id === id);
+        return response;
     }
 
     async create(task) {
