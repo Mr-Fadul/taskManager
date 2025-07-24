@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+.env
+*.log
+package-lock.json
+
+# VSCode
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Outros
+*.bak
+*.tmp
